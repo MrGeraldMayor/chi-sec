@@ -7,6 +7,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { CssBaseline } from "@mui/material";
 import Header from "./component/Header";
 import Body from "./component/Body";
+import Footer from "./component/footer";
 
 export default function App() {
   // 2. Fixed variable naming consistency
@@ -28,6 +29,7 @@ export default function App() {
       <CssBaseline />
       <Header />
       <Body/>
+      <Footer/>
     </ThemeProvider>
   );
 }
