@@ -8,6 +8,7 @@ import { CssBaseline } from "@mui/material";
 import Header from "./component/Header";
 import Body from "./component/Body";
 import Footer from "./component/footer";
+import MediaRow from "./component/second";
 
 export default function App() {
   // 2. Fixed variable naming consistency
@@ -28,6 +29,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Header />
+      <MediaRow/>
       <Body/>
       <Footer/>
     </ThemeProvider>
